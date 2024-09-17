@@ -1,0 +1,232 @@
+html{
+    scroll-behavior: smooth;
+}
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3f3f3;
+    color: #333;
+    line-height: 1.6;
+    font-family: "Inria Sans";
+}
+
+header {
+    background-color: #f58b8b;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0px 2px 10px rgb(0, 0, 0, 0.7);
+    text-shadow: 1px -2px 2pt black;
+    font-family: "Protest Guerrilla";
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+header nav {
+    margin-top: 0.5rem;
+}
+
+.checkbox-list-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0);
+    max-width: 400px;
+    width: 100%;
+    vertical-align: center;
+}
+
+.checkbox-list-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #a12424;
+}
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.checkbox-item input[type="checkbox"] {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.checkbox-item label {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.checkbox-item input[type="checkbox"]:checked + label {
+    
+    color: #000000;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    box-shadow: 0px 2px 10px rgb(0,0,0,0.7);
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 7px;
+    transition: 0.6s;
+}
+header nav a:hover{
+    background-color: #fcfcfc;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 2px 2pt rgba(0, 0, 0, 0.7);
+    transition: 0.6s;
+}
+.thread-form {
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.thread-form h2 {
+    margin-bottom: 1rem;
+}
+
+.thread-form label {
+    display: block;
+    margin: 0.5rem 0;
+}
+.box:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    background-color: #8a8a8a34;
+}
+.box:active{
+    background-color: #8a8a8a34;
+    transform: scale(1.05);
+}
+.thread-form input,
+.thread-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    
+}
+
+.thread-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.thread-form button:hover {
+    background-color: #555;
+}
+
+.threads-container {
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+.thread {
+    background-color: #fff;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.thread-header {
+    margin-bottom: 1rem;
+}
+
+.thread-header h3 {
+    margin-bottom: 0.5rem;
+}
+
+.thread-body {
+    margin-bottom: 1rem;
+}
+
+.thread-body p {
+    margin-bottom: 1rem;
+}
+
+.thread-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.replies {
+    margin-top: 1rem;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.replies h4 {
+    margin-bottom: 0.5rem;
+}
+
+.reply {
+    margin-bottom: 1rem;
+}
+
+.reply p {
+    margin: 0;
+}
+
+.reply-form {
+    margin-top: 1rem;
+}
+
+.reply-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.reply-form button {
+    background-color: #383737;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.reply-form button:hover {
+    background-color: #8a8a8a;
+}
+
+footer {
+    background-color: #f58b8b;
+    color: #fff;
+    text-shadow: 1px -2px 1pt rgb(0, 0, 0,0.6);
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+

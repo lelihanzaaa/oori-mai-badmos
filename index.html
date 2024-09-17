@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oori Ka Tamasha</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Protest+Guerrilla&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Protest+Guerrilla&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Discussion Board</h1>
+        <nav>
+            <div class="ui1">
+            <a class="u1" href="#">Home</a>  | 
+            <a class="u1" href="#">Floors</a>  | 
+            <a class="u1" href="#">Archive</a>  |
+            <a class="u1" href="#">Members</a> 
+            </div>
+        </nav>
+    </header>
+
+    <section class="thread-form">
+        <h2>Create a New Thread</h2>
+        <form>
+            <label for="name">Name (Room Number):</label>
+            <input class="box" type="text" id="name" name="name" placeholder="Lelihana Kumar (104)">
+
+            <section class="checkbox-list-container">
+                <h3>Category:</h3>
+            <form>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="task1">
+                        <label for="task1">Complaint</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="task2">
+                        <label for="task2">Meet-up</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="task3">
+                        <label for="task3">Gaming</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="task4">
+                        <label for="task4">Event group</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="task5">
+                        <label for="task5">Group for Mess</label>
+                    </div>
+            </form>
+            </section>
+            
+            <label for="subject">Subject:</label>
+            <input class="box" type="text" id="subject" name="subject" placeholder="Crap in the sink!">
+            
+            
+            <label for="message">Message:</label>
+            <textarea class="box" id="message" name="message" rows="5" placeholder="Crap found in the 3rd floor bathroom sink."></textarea>
+            
+            <label for="image">Attach Image (Optional):</label>
+            <input type="file" id="image" name="image">
+            
+            <button type="submit">Post Thread</button>
+        </form>
+    </section>
+
+    <main class="threads-container">
+       
+        <section class="thread">
+            <div class="thread-header">
+                <h3>Crap in the sink!</h3>
+                <p>Posted by <strong>Lelihana Kumar (104)</strong> on 09/16/2024</p>
+            </div>
+            <div class="thread-body">
+                <p>Crap found in the 3rd floor bathroom sink.</p>
+                <img src="sample-image.jpg" alt="Sample Image" class="thread-image">
+            </div>
+            <div class="replies">
+                <h4>Replies:</h4>
+                <div class="reply">
+                    <p><strong>Manav Bhandari (409):</strong>Confirmation.</p>
+                </div>
+                <div class="reply">
+                    <p><strong>Manav Bhandari (409):</strong>I can confirm, I went to brush and saw the crime scene</p>
+                </div>
+                <form class="reply-form">
+                    <label for="reply-message">Reply:</label>
+                    <textarea id="reply-message" name="reply-message" rows="3"></textarea>
+                    <button type="submit">Post Reply</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>End of the FORUM :P</p>
+    </footer>
+</body>
+</html>
